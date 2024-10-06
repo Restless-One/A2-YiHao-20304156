@@ -1,5 +1,11 @@
 # README.md
-gir repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readme-ov-file
+
+git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readme-ov-file
+
+### Task 1
+ Done at 6 OCT
+
+
 ------------------------------------------------
 IMPORTANT: Once you've cloned this to your forked repository, ensure that you continuously update this document as you complete each task to demonstrate your ongoing progress.
 
