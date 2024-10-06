@@ -4,7 +4,7 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
 
 ### Task 1
  Done at 6 OCT
-
+![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/Screenshot%202024-10-06%20at%204.25.42%E2%80%AFpm.png)
 
 ------------------------------------------------
 IMPORTANT: Once you've cloned this to your forked repository, ensure that you continuously update this document as you complete each task to demonstrate your ongoing progress.
