@@ -6,6 +6,32 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
  Done at 6 OCT
 ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/Screenshot%202024-10-06%20at%204.25.42%E2%80%AFpm.png)
 
+### Task 2
+ Done at 7 OCT
+#### Show Contact
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/show%20contact.png)
+
+#### Add Contact
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/add%20contect%20command.png)
+
+#### Delete Contact
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/Delete%20contact%20command.png)
+
+#### Update Contact
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/update%20contact.png)
+
+#### Show Phone
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/show%20phones.png)
+
+#### Add Phone
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/add%20phone.png)
+
+#### Delete Phone
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/delete%20phone.png)
+
+#### Update Phone
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/update%20phone.png)
+
 ------------------------------------------------
 IMPORTANT: Once you've cloned this to your forked repository, ensure that you continuously update this document as you complete each task to demonstrate your ongoing progress.
 
