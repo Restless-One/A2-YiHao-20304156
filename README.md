@@ -34,7 +34,7 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
 
 ### Task 3
 ##### update contact.model
- ```
+```
      const Contact = sequelize.define("contact", {
         id: {
             type: Sequelize.INTEGER,
@@ -73,9 +73,34 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
         contactId: parseInt(req.params.contactId)
     };
  ```
+ ##### frontend adjust
+ [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-front.png)
 
+ ##### api test for task3
+ 
+ ###### get contact
+ [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-getcontact.png)
+ 
+ ###### add contact
+ [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-addcontact.png)
 
+ ###### delete contact
+ [iamge](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-deletecontact.png)
 
+ ###### update contact
+ [iamge](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-updatecontact.png)
+
+ ###### get phone
+ [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-getphone.png)
+ 
+ ###### add phone
+ [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-addphone.png)
+
+ ###### delete phone
+ [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-deletephone.png)
+
+ ###### update phone
+ [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-updatephone.png)
 ------------------------------------------------
 IMPORTANT: Once you've cloned this to your forked repository, ensure that you continuously update this document as you complete each task to demonstrate your ongoing progress.
 
