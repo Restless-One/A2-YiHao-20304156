@@ -34,7 +34,7 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
 
 ### Task 3
 ##### update contact.model
-```
+```JavaScript
      const Contact = sequelize.define("contact", {
         id: {
             type: Sequelize.INTEGER,
@@ -50,14 +50,14 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
         }
  ```
  ##### update contact.controller
- ```
+ ```JavaScript
      const contact = {
         name: req.body.name,
         address : req.body.address
     };
  ```
  ##### update phone.model
- ```
+ ```JavaScripe
         phone_type: {
             type: Sequelize.STRING
         },
@@ -66,7 +66,7 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
         },
  ```
  ##### update phone.controller
- ```
+ ```JavaScript
      const phone = {
        phone_type : req.body.type,
        phone_number : req.body.number,
@@ -79,30 +79,30 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
  ##### api test for task3
  
  ###### get contact
- [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-getcontact.png)
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-getcontact.png)
  
  ###### add contact
- [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-addcontact.png)
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-addcontact.png)
 
  ###### delete contact
- [iamge](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-deletecontact.png)
+ ![iamge](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-deletecontact.png)
 
  ###### update contact
- [iamge](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-updatecontact.png)
+ ![iamge](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-updatecontact.png)
 
  ###### get phone
- [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-getphone.png)
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-getphone.png)
  
  ###### add phone
- [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-addphone.png)
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-addphone.png)
 
  ###### delete phone
- [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-deletephone.png)
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-deletephone.png)
 
  ###### update phone
- [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-updatephone.png)
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-updatephone.png)
  ### Task 4
- ####  create new table "Company"
+ ####  Create new table "Company"
  create a new file `company.model.js`
  code for `company.model.js`
  ```JavaScript
@@ -132,8 +132,11 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
     return Company;
 };
  ```
+
+
  #### API creation and test
  ###### API create:
+    ```JavaScript
     router.post("/contacts/:contactId/companies", companies.create);
 
     router.get("/contacts/:contactId/companies", companies.findAll);
@@ -143,16 +146,19 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
     router.put("/contacts/:contactId/companies/:companyId", companies.update);
 
     router.delete("/contacts/:contactId/companies/:companyId", companies.delete);
+    ```
+
+  ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task4-table.png)  
 
  ###### API test
  add company
-
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task4-createcompany.png)
  get company
-
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task4-getcomany.png)
  update company
-
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-updatephone.png)
  delete company
- 
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task4-deletecomany.png)
 
 
 
