@@ -165,3 +165,7 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.light-text {
+    font-weight: 300;
+}

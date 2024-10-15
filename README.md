@@ -32,6 +32,50 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
 #### Update Phone
  ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/update%20phone.png)
 
+### Task 3
+##### update contact.model
+ ```
+     const Contact = sequelize.define("contact", {
+        id: {
+            type: Sequelize.INTEGER,
+            autoIncrement: true,
+            primaryKey: true,
+        },
+        name: {
+            type: Sequelize.STRING
+        },
+        address: {
+            type: Sequelize.STRING,
+            allowNull: true
+        }
+ ```
+ ##### update contact.controller
+ ```
+     const contact = {
+        name: req.body.name,
+        address : req.body.address
+    };
+ ```
+ ##### update phone.model
+ ```
+        phone_type: {
+            type: Sequelize.STRING
+        },
+        phone_number: {
+            type: Sequelize.STRING
+        },
+ ```
+ ##### update phone.controller
+ ```
+     const phone = {
+       phone_type : req.body.type,
+       phone_number : req.body.number,
+        contactId: parseInt(req.params.contactId)
+    };
+ ```
+
+
+
 ------------------------------------------------
 IMPORTANT: Once you've cloned this to your forked repository, ensure that you continuously update this document as you complete each task to demonstrate your ongoing progress.
 
