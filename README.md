@@ -101,6 +101,61 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
 
  ###### update phone
  [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-updatephone.png)
+ ### Task 4
+ ####  create new table "Company"
+ create a new file `company.model.js`
+ code for `company.model.js`
+ ```JavaScript
+ module.exports = (sequelize, Sequelize) => {
+    const Company = sequelize.define("company", {
+        company_id: {
+            type: Sequelize.INTEGER,
+            autoIncrement: true,
+            primaryKey: true,
+        },
+        company_name: {
+            type: Sequelize.STRING
+        },
+        company_address: {
+            type: Sequelize.STRING,
+            allowNull: true
+        },
+        contactId: {
+            type: Sequelize.INTEGER,
+            references: {
+                model: 'contacts',
+                key: 'id',
+            }
+        }
+    });
+
+    return Company;
+};
+ ```
+ #### API creation and test
+ ###### API create:
+    router.post("/contacts/:contactId/companies", companies.create);
+
+    router.get("/contacts/:contactId/companies", companies.findAll);
+
+    router.get("/contacts/:contactId/companies/:companyId", companies.findOne);
+
+    router.put("/contacts/:contactId/companies/:companyId", companies.update);
+
+    router.delete("/contacts/:contactId/companies/:companyId", companies.delete);
+
+ ###### API test
+ add company
+
+ get company
+
+ update company
+
+ delete company
+ 
+
+
+
 ------------------------------------------------
 IMPORTANT: Once you've cloned this to your forked repository, ensure that you continuously update this document as you complete each task to demonstrate your ongoing progress.
 
