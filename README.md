@@ -74,7 +74,7 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
     };
  ```
  ##### frontend adjust
- [image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-front.png)
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/task3-front.png)
 
  ##### api test for task3
  
