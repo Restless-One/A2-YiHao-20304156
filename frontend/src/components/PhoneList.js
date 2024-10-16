@@ -8,7 +8,7 @@ function PhoneList(props) {
         <div className='phone-list'>
             <NewPhone phones={phones} setPhones={setPhones} contact={contact} />
 
-            <table onClick={(e) => e.stopPropagation()}>
+            <table>
                 <thead>
                     <tr>
                         <th>Phone Type</th>

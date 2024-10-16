@@ -169,3 +169,8 @@
 .light-text {
     font-weight: 300;
 }
+.button.blue {
+    background-color: #007bff;
+    color: white;
+}
+
