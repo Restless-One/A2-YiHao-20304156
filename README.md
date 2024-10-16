@@ -169,9 +169,8 @@ git repository link: https://github.com/Restless-One/A2-YiHao-20304156?tab=readm
 
  #### Add company
  ##### Front
- ![image](https://github.com/Restless-One/A2-YiHao-20304156/edit/main/README.md)
  ##### Table
- ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/Task5%20table%20addcompany.png)
+ ![image](https://github.com/Restless-One/A2-YiHao-20304156/blob/main/screenshot/Task5%20front%20addcompany.png)
 
  #### update company
  ##### Front
